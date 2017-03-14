@@ -1,9 +1,14 @@
 # kernel
 A kernel module with 3 sysfs entries :
   1. swap_string
+    * swap the string by the specified index
+    * The input will be a given positive number nwith a string
   2. calc
+    * simple calculator with 5 operators
+    * only for integer
   3. sum_tree
-  
+    * input a tree
+    * output sums form root to the leaves
   
 
 The module handle 2 parameter : 
